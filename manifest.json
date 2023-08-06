@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "SimpleExtraction",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
+      "js": [
+        "logging.js",
+        "content_script.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
