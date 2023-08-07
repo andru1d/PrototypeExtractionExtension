@@ -1,6 +1,6 @@
 'use strict';
 
-const wrappers = [
+export const wrappers = [
   {
     name: 'amazon_product',
     selector: [
